@@ -6,7 +6,7 @@
 /*   By: kmbukuts <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/20 07:47:35 by kmbukuts          #+#    #+#             */
-/*   Updated: 2019/06/20 09:08:05 by kmbukuts         ###   ########.fr       */
+/*   Updated: 2019/06/26 15:22:55 by kmbukuts         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define GET_NEXT_LINE_H
 
 #include "./libft/libft.h"
+#include <stdlib.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
